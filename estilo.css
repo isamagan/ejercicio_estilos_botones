@@ -1,0 +1,114 @@
+body{
+    background-image: url(fondo.png);
+    font-family: calibri;
+}
+ul.botonera1{
+    margin:0;
+    padding:0;
+    list-style-type: none; 
+    margin-bottom: 10px;
+    
+}
+ul.botonera1 li{
+    display: inline; /* es para que se despliegue horizontal*/
+}
+ul.botonera1 li a{
+    width: 150px;
+    height: 38px;
+    background-color: #F3F781;
+    margin-bottom: 5px;
+    display: inline-block; /* se agrega inline porque se despliega horizontal */
+    color:#FF4000 ;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 2px solid #F5DA81;
+    font-size: 11px;
+    line-height: 40px;  /* separa el texto de la cuadrícula del borde superior*/
+    
+}
+h2{
+    color:#CC2EFA;
+    font-size:20px ;
+}
+ul.botonera2 {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display: inline;
+}
+ul.botonera2 li a{
+    width: 150px;
+    height: 28px;
+    background-color:#F5A9E1;
+    margin-bottom: 5px;
+    display: block; /*se agrega pues a es atributo en línea y no en bloque*/
+    color:#6A0888 solid;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    border: 1px solid  #BF00FF ;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 28px;
+    
+}
+ul.botonera3{
+    margin:0;
+    padding:0;
+    list-style-type: none; 
+    margin-bottom: 9px;
+    margin-top: 15px;
+    
+}
+
+ul.botonera3 li{
+    display: inline;
+}
+ul.botonera3 li a{
+    width: 150px;
+    height: 38px;
+    background-color: #F3F781;
+    margin-bottom: 5px;
+    display: inline-block;
+    color:#FF4000 ;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 2px solid #F5DA81;
+    font-size: 11px;
+    line-height: 40px;  
+    
+}
+ul.botonera3 li a:hover{
+    background-color: #F5DA81 ;
+}
+ul.botonera4 {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display: inline;
+}
+ul.botonera4 li a{
+    width: 190px;
+    height: 40px;
+    background-color:#F5A9E1;
+    margin-bottom: 10px;
+    display: block; 
+    color:#6A0888 solid;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    border: 1px solid  #BF00FF ;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 38px; 
+    
+}
+ul.botonera4 li a:hover{
+    background-color:#FE2E9A ;
+}
+
+ul.botonera4{
+    margin-top: 0;
+}
